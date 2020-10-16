@@ -42,7 +42,6 @@ public class AssociadoNegocio {
 	}
 	
 	public Associado obterAssociadoPor(String cpf) {
-	//	verificadorCpfAssociado.obterHabilitacoVotoPor(cpf);
 		return dao.obterAssociadoPor(cpf).orElseThrow(() ->  new NegocioException(MensagemEnum.MSG002)); 
 	}
 	
