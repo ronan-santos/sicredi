@@ -23,6 +23,10 @@ classe da integração: CpfAssociadoIntegracao, no pacote sicredi.negocio.integr
 
 * Versionamento da API 
 A api foi versionada na url, de forma que várias versões da mesma api podem ser implantadads no mesmo servidor
+
+Lombok
+
+Foi utilizada o lombok, na versão lombok-1.18.10, para a construção de classes no Eclipse
  
 
  
