@@ -30,7 +30,7 @@ public class VotacaoView {
 	
 	@POST
 	@Path("voto")
-	@ApiOperation(value = "Computa o voto do associado", notes = "São aceitos como votos: 1 - NÃO , 2 - SIM")
+	@ApiOperation(value = "Computa o voto do associado", notes = "São aceitos como votos: 0 - NÃO , 1 - SIM")
 	@ApiResponses(value = @ApiResponse(code = 200, message = "Voto computado com sucesso"))
 	public Response receberVoto(VotoDto voto) {
 		
