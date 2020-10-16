@@ -9,21 +9,8 @@
  
  # BANCO
  
- O banco foi hospedado na Amazon e para se conectar deve ser utilizado o datasource abaixo:
+ O banco foi hospedado na Amazon e para se conectar deve ser utilizado o datasource e o driver que estão na pasta docs.
  
- <!-- DATASOURCE -->
-  <datasource jndi-name="java:jboss/datasources/PostgresqlSicrediDS" pool-name="PostgresqlSicrediDS" enabled="true" use-java-context="true">
-      <connection-url>jdbc:postgresql://teste-sicredi.czvvszd8niiw.us-east-2.rds.amazonaws.com:5432/SICREDI</connection-url>
-      <driver>postgresql</driver>
-      <security>
-          <user-name>userSicredi</user-name>
-          <password>sicredi123P</password>
-      </security>
-  </datasource>
-  
-  <!-- DRIVER -->
-   <driver name="postgresql" module="org.postgresql">
-       <xa-datasource-class>org.postgresql.xa.PGXADataSource</xa-datasource-class>
-    </driver>
+
  
  
