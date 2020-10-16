@@ -17,11 +17,11 @@ A Aplicação utilizou o servidor wildfly 15.0.1 e o jdk 11.0.8
 
 Tarefa Bônus
 
-1 - Integração com sistemas externos
+* Integração com sistemas externos
 Foi realizada a integração no momento de armazenar o voto
 classe da integração: CpfAssociadoIntegracao, no pacote sicredi.negocio.integracao
 
-2 - Versionamento da API 
+* Versionamento da API 
 A api foi versionada na url, de forma que várias versões da mesma api podem ser implantadads no mesmo servidor
  
 
