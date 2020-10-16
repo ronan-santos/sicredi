@@ -11,6 +11,7 @@
  
  O banco foi hospedado na Amazon e para se conectar deve ser utilizado o datasource abaixo:
  
+ ...
  <!-- DATASOURCE -->
   <datasource jndi-name="java:jboss/datasources/PostgresqlSicrediDS" pool-name="PostgresqlSicrediDS" enabled="true" use-java-context="true">
       <connection-url>jdbc:postgresql://teste-sicredi.czvvszd8niiw.us-east-2.rds.amazonaws.com:5432/SICREDI</connection-url>
@@ -20,6 +21,7 @@
           <password>sicredi123P</password>
       </security>
   </datasource>
+  ...
   
   <!-- DRIVER -->
    <driver name="postgresql" module="org.postgresql">
