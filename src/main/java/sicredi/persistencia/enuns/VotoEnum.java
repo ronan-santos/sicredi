@@ -7,8 +7,8 @@ import lombok.Getter;
 
 public enum VotoEnum {
 
-	NAO(1),
-	SIM(2);
+	NAO(0),
+	SIM(1);
 	
 	@Getter
 	private Integer voto;
